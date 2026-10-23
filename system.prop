@@ -1,0 +1,20 @@
+# Posisi dan ukuran sensor FOD dari HyperOS stock (layar 1080x2392, pojok kiri atas).
+# Nilai ini harus sama dengan FOD_XY / FOD_WH di config.sh.
+vendor.fingerprint.aidl.support=1
+persist.vendor.sys.fp.fod.location.X_Y=449,2083
+persist.vendor.sys.fp.fod.size.width_height=183,183
+ro.hardware.fp.fod=true
+ro.hardware.fp.fod.location=low
+ro.hardware.fp.fod.lowlight.brightness.threshold=411
+ro.hardware.fp.fod.lowlight.lux.threshold=3
+ro.hardware.fp.fod.touch.ctl.version=2.0
+ro.hardware.fp.mievent=true
+ro.vendor.disable_idle_fps.threshold=1090
+ro.vendor.display.aod_monitor_default_fps=30
+ro.vendor.display.fod_monitor_default_fps=120
+ro.vendor.display.idle_fps=60
+ro.vendor.display.tp_idle_fps=60
+ro.vendor.fps.switch.default=true
+ro.vendor.fps.switch.thermal=true
+ro.vendor.idle_fps=60
+ro.vendor.smart_dfps.enable=true

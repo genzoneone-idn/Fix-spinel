@@ -1,0 +1,6 @@
+id=spinel_fod_fix
+name=Spinel FOD Fix
+version=v0.4
+versionCode=5
+author=user
+description=Buat node disp_feature, set posisi FOD, dan atur status FodEngine (extCmd) otomatis saat enroll atau autentikasi sidik jari.
